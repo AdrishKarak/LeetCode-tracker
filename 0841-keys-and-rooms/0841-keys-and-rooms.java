@@ -3,20 +3,27 @@ class Solution {
         int n = rooms.size();
         boolean[] visited = new boolean[n];
 
-        dfs(0,rooms , visited);
+        // Start our depth-first exploration from Room 0
+        dfs(0, rooms, visited);
 
-        for(boolean isVisited: visited){
-            if(!isVisited){
+        // If any room remains unvisited, return false
+        for (boolean isVisited : visited) {
+            if (!isVisited) {
                 return false;
             }
         }
+
         return true;
     }
-    public void dfs(int currentroom , List<List<Integer>> rooms , boolean[] visited){
-        visited[currentroom] = true;
 
-        for(int key: rooms.get(currentroom)){
-            if(!visited[key]){
+    private void dfs(int currentRoom, List<List<Integer>> rooms, boolean[] visited) {
+        // Mark the current room as visited
+        visited[currentRoom] = true;
+
+        // Grab all keys available in the current room
+        for (int key : rooms.get(currentRoom)) {
+            // If we haven't visited the room that this key unlocks, go visit it
+            if (!visited[key]) {
                 dfs(key, rooms, visited);
             }
         }
