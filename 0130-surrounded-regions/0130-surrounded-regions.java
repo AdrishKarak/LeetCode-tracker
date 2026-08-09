@@ -1,47 +1,70 @@
 class Solution {
+
     public void solve(char[][] board) {
-        int m=board.length , n=board[0].length;
 
-        boolean[][] vis = new boolean[m][n];
+        int rows = board.length;
+        int cols = board[0].length;
 
-        for(int i=0; i<m; i++){
-            if(board[i][0] == 'O' && vis[i][0] == false){
-                dfs(i,0,board,vis);
-            }
-            if(board[i][n-1] == 'O' && vis[i][n-1]==false){
-                dfs(i,n-1,board,vis);
-            }
-        }
+        // Marks all border-connected O's
+        boolean[][] visited = new boolean[rows][cols];
 
-        for(int j=0; j<n; j++){
-            if(board[0][j]=='O' && vis[0][j]==false){
-                dfs(0,j,board,vis);
+        // DFS from left and right borders
+        for (int r = 0; r < rows; r++) {
+
+            if (board[r][0] == 'O' && !visited[r][0]) {
+                dfs(r, 0, board, visited);
             }
-            if(board[m-1][j]=='O' && vis[m-1][j]==false){
-                dfs(m-1,j,board,vis);
+
+            if (board[r][cols - 1] == 'O' && !visited[r][cols - 1]) {
+                dfs(r, cols - 1, board, visited);
             }
         }
 
-        for(int i=0; i<m; i++){
-            for(int j=0; j<n; j++){
-                if(board[i][j]=='O' && vis[i][j]==false){
-                    board[i][j]='X';
+        // DFS from top and bottom borders
+        for (int c = 0; c < cols; c++) {
+
+            if (board[0][c] == 'O' && !visited[0][c]) {
+                dfs(0, c, board, visited);
+            }
+
+            if (board[rows - 1][c] == 'O' && !visited[rows - 1][c]) {
+                dfs(rows - 1, c, board, visited);
+            }
+        }
+
+        // Any unvisited O is surrounded by X's
+        for (int r = 0; r < rows; r++) {
+            for (int c = 0; c < cols; c++) {
+
+                if (board[r][c] == 'O' && !visited[r][c]) {
+                    board[r][c] = 'X';
                 }
             }
         }
     }
 
-    public void dfs(int i , int j , char[][] board ,boolean[][]vis){
-        int m=board.length , n=board[0].length;
+    private void dfs(int r, int c, char[][] board, boolean[][] visited) {
 
-        if(i<0 || j<0 || i>=m || j>=n || vis[i][j]==true || board[i][j] == 'X'){
+        int rows = board.length;
+        int cols = board[0].length;
+
+        // Invalid cell
+        if (r < 0 || c < 0 || r >= rows || c >= cols) {
             return;
         }
-        vis[i][j]=true;
 
-        dfs(i+1,j,board,vis);
-        dfs(i-1,j,board,vis);
-        dfs(i,j+1,board,vis);
-        dfs(i,j-1,board,vis);
+        // Already processed or not an O
+        if (visited[r][c] || board[r][c] == 'X') {
+            return;
+        }
+
+        // Mark border-connected O
+        visited[r][c] = true;
+
+        // Explore all 4 directions
+        dfs(r + 1, c, board, visited); // down
+        dfs(r - 1, c, board, visited); // up
+        dfs(r, c + 1, board, visited); // right
+        dfs(r, c - 1, board, visited); // left
     }
 }
