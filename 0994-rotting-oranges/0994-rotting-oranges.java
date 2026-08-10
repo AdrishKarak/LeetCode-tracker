@@ -1,46 +1,81 @@
 class Solution {
-    public int orangesRotting(int[][] grid) {
-        int n=grid.length , m=grid[0].length;
-        boolean visit[][]=new boolean[n][m];
-        Queue<int[]> q= new LinkedList<>();
-        int fresh=0;
 
-        for(int i=0; i<n; i++){
-            for(int j=0; j<m; j++){
-                if(grid[i][j]==2){
-                    q.offer(new int[]{i ,j});
-                    visit[i][j]=true;
-                } else if(grid[i][j]==1){
+    public int orangesRotting(int[][] grid) {
+
+        int rows = grid.length;
+        int cols = grid[0].length;
+
+        boolean[][] visited = new boolean[rows][cols];
+
+        Queue<int[]> q = new LinkedList<>();
+
+        int fresh = 0;
+
+        // Put all initially rotten oranges into the queue
+        // and count the total fresh oranges
+        for (int r = 0; r < rows; r++) {
+            for (int c = 0; c < cols; c++) {
+
+                if (grid[r][c] == 2) {
+                    q.offer(new int[]{r, c});
+                    visited[r][c] = true;
+                }
+                else if (grid[r][c] == 1) {
                     fresh++;
                 }
             }
         }
 
-        if(fresh==0) return 0;
+        // No fresh oranges means nothing needs to rot
+        if (fresh == 0) {
+            return 0;
+        }
 
-        int min=-1;
-        int directions[][]={{-1,0},{1,0},{0,-1},{0,1}};
+        int minutes = -1;
 
-        while(!q.isEmpty()){
+        // Four possible directions
+        int[][] directions = {
+            {-1, 0}, // up
+            {1, 0},  // down
+            {0, -1}, // left
+            {0, 1}   // right
+        };
+
+        // Each BFS level represents one minute
+        while (!q.isEmpty()) {
+
             int size = q.size();
-            min++;
+            minutes++;
 
-            for(int i=0; i<size; i++){
-                int arr[]=q.poll();
-                for(int dir[]: directions){
-                    int x=arr[0]+dir[0];
-                    int y=arr[1]+dir[1];
+            // Process all oranges that are rotten at this minute
+            for (int i = 0; i < size; i++) {
 
-                    if(x<0 || x>=n || y<0 || y>=m || grid[x][y]==0 || visit[x][y]){
+                int[] current = q.poll();
+
+                for (int[] dir : directions) {
+
+                    int nr = current[0] + dir[0];
+                    int nc = current[1] + dir[1];
+
+                    // Ignore invalid cells, empty cells and visited cells
+                    if (nr < 0 || nr >= rows ||
+                        nc < 0 || nc >= cols ||
+                        grid[nr][nc] == 0 ||
+                        visited[nr][nc]) {
                         continue;
                     }
 
-                    visit[x][y]=true;
+                    // Fresh orange becomes rotten
+                    visited[nr][nc] = true;
                     fresh--;
-                    q.offer(new int[]{x,y});
+
+                    // This orange spreads rot in the next minute
+                    q.offer(new int[]{nr, nc});
                 }
             }
         }
-        return fresh==0 ? min : -1;
+
+        // If all fresh oranges became rotten, return time taken
+        return fresh == 0 ? minutes : -1;
     }
 }
