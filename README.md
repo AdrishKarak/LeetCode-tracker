@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0695-max-area-of-island) |
 | [0841-keys-and-rooms](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0841-keys-and-rooms) |
 | [0994-rotting-oranges](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0994-rotting-oranges) |
+| [1162-as-far-from-land-as-possible](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1162-as-far-from-land-as-possible) |
 | [1971-find-if-path-exists-in-graph](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1971-find-if-path-exists-in-graph) |
 ## Union-Find
 |  |
@@ -37,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0695-max-area-of-island) |
 | [0994-rotting-oranges](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0994-rotting-oranges) |
+| [1162-as-far-from-land-as-possible](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1162-as-far-from-land-as-possible) |
 ## Matrix
 |  |
 | ------- |
@@ -44,8 +46,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0695-max-area-of-island) |
 | [0994-rotting-oranges](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0994-rotting-oranges) |
+| [1162-as-far-from-land-as-possible](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1162-as-far-from-land-as-possible) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0542-01-matrix](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0542-01-matrix) |
+| [1162-as-far-from-land-as-possible](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1162-as-far-from-land-as-possible) |
 <!---LeetCode Topics End-->
