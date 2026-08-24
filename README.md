@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0130-surrounded-regions) |
+| [0133-clone-graph](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0133-clone-graph) |
 | [0417-pacific-atlantic-water-flow](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0695-max-area-of-island) |
 | [0841-keys-and-rooms](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0841-keys-and-rooms) |
@@ -16,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0130-surrounded-regions) |
+| [0133-clone-graph](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0133-clone-graph) |
 | [0417-pacific-atlantic-water-flow](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0695-max-area-of-island) |
@@ -34,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [0133-clone-graph](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0133-clone-graph) |
 | [0841-keys-and-rooms](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0841-keys-and-rooms) |
 | [1971-find-if-path-exists-in-graph](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1971-find-if-path-exists-in-graph) |
 ## Array
@@ -61,4 +64,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0542-01-matrix](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0542-01-matrix) |
 | [1162-as-far-from-land-as-possible](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1162-as-far-from-land-as-possible) |
+## Hash Table
+|  |
+| ------- |
+| [0133-clone-graph](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0133-clone-graph) |
 <!---LeetCode Topics End-->
