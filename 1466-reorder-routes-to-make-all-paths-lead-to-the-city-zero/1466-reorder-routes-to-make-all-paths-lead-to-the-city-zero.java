@@ -1,33 +1,54 @@
 class Solution {
-    int ans=0;
-    private void dfs(int node, List<Integer>[] adj, List<Integer>[] frm, boolean[] vis){
-        vis[node] = true;
-        for(int nei : adj[node]){
-            if(vis[nei]) continue;
-            if(frm[node].contains(nei)) 
-            ans++;
-            dfs(nei, adj, frm, vis);
+    public int minReorder(int n, int[][] connections) {
+         // Adjacency list:
+        // [neighbor, cost]
+        List<int[]>[] graph = new ArrayList[n];
+
+        for (int i = 0; i < n; i++) {
+            graph[i] = new ArrayList<>();
         }
+
+        // Build graph
+        for (int[] connection : connections) {
+
+            int from = connection[0];
+            int to = connection[1];
+
+            // Original direction
+            graph[from].add(new int[]{to, 1});
+
+            // Reverse direction
+            graph[to].add(new int[]{from, 0});
+        }
+
+        // Start DFS from city 0
+        return dfs(0, -1, graph);
     }
 
-    public int minReorder(int n, int[][] connections) {
-        List<Integer>[] adj = new ArrayList[n];
-        List<Integer>[] frm = new ArrayList[n];
-        for (int i = 0; i < n; i++) {
-            adj[i] = new ArrayList<>();
-            frm[i] = new ArrayList<>();
+    private int dfs(int city,
+                    int parent,
+                    List<int[]>[] graph) {
+
+        int changes = 0;
+
+        for (int[] edge : graph[city]) {
+
+            int nextCity = edge[0];
+            int cost = edge[1];
+
+            // Don't go back to parent
+            if (nextCity == parent) {
+                continue;
+            }
+
+            // Add reversal cost
+            changes += cost;
+
+            // Explore subtree
+            changes += dfs(nextCity, city, graph);
         }
-        for (int[] con : connections) {
-            int u = con[0];
-            int v = con[1];
-            adj[u].add(v);
-            adj[v].add(u);
-        }
-        for (int[] con : connections) {
-            frm[con[0]].add(con[1]);
-        }
-        dfs(0, adj, frm, new boolean[n]);
-        return ans;
+
+        return changes;
     }
 
 
