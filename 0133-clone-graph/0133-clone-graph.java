@@ -23,7 +23,7 @@ class Solution {
     public Node cloneGraph(Node node) {
        // Empty graph
         if (node == null) {
-            return node;
+            return null;
         }
 
         // Node already cloned
