@@ -1,15 +1,34 @@
 class Solution {
     public int findJudge(int n, int[][] trust) {
-        if(trust.length == 0 && n==1)
-        return 1;
-        int[] count = new int[n+1];
-        for(int[] person : trust){
-            count[person[0]]--;
-            count[person[1]]++;
+       // Special case:
+        // Single person is automatically the judge
+        if (n == 1 && trust.length == 0) {
+            return 1;
         }
-        for(int person =0; person<count.length; person++){
-            if(count[person] == n-1) return person;
+
+        // Net trust score for each person
+        int[] count = new int[n + 1];
+
+        for (int[] relation : trust) {
+
+            int truster = relation[0];
+            int trusted = relation[1];
+
+            // Person trusts someone
+            count[truster]--;
+
+            // Person is trusted
+            count[trusted]++;
         }
+
+        // Judge must have score n-1
+        for (int person = 1; person <= n; person++) {
+
+            if (count[person] == n - 1) {
+                return person;
+            }
+        }
+
         return -1;
     }
 }
