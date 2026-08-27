@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0133-clone-graph) |
 | [0797-all-paths-from-source-to-target](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0797-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0841-keys-and-rooms) |
+| [0997-find-the-town-judge](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0997-find-the-town-judge) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1791-find-center-of-star-graph](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1791-find-center-of-star-graph) |
 | [1971-find-if-path-exists-in-graph](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1971-find-if-path-exists-in-graph) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0695-max-area-of-island) |
 | [0994-rotting-oranges](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0994-rotting-oranges) |
+| [0997-find-the-town-judge](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0997-find-the-town-judge) |
 | [1020-number-of-enclaves](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1020-number-of-enclaves) |
 | [1162-as-far-from-land-as-possible](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1162-as-far-from-land-as-possible) |
 ## Matrix
@@ -79,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0133-clone-graph) |
+| [0997-find-the-town-judge](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0997-find-the-town-judge) |
 ## Backtracking
 |  |
 | ------- |
