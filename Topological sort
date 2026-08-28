@@ -1,0 +1,43 @@
+class Solution {
+
+    public List<Integer> topoSort(int n,
+                                  List<Integer>[] graph) {
+
+        boolean[] visited = new boolean[n];
+
+        Stack<Integer> stack = new Stack<>();
+
+        for (int node = 0; node < n; node++) {
+
+            if (!visited[node]) {
+                dfs(node, graph, visited, stack);
+            }
+        }
+
+        List<Integer> answer = new ArrayList<>();
+
+        while (!stack.isEmpty()) {
+            answer.add(stack.pop());
+        }
+
+        return answer;
+    }
+
+    private void dfs(int node,
+                     List<Integer>[] graph,
+                     boolean[] visited,
+                     Stack<Integer> stack) {
+
+        visited[node] = true;
+
+        for (int neighbor : graph[node]) {
+
+            if (!visited[neighbor]) {
+                dfs(neighbor, graph, visited, stack);
+            }
+        }
+
+        // Add after children
+        stack.push(node);
+    }
+}
