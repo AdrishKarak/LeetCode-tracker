@@ -1,0 +1,45 @@
+class Solution {
+
+    public boolean hasCycle(int n, List<Integer>[] graph) {
+
+        boolean[] visited = new boolean[n];
+
+        for (int node = 0; node < n; node++) {
+
+            if (!visited[node]) {
+
+                if (dfs(node, -1, graph, visited)) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    private boolean dfs(int node,
+                        int parent,
+                        List<Integer>[] graph,
+                        boolean[] visited) {
+
+        visited[node] = true;
+
+        for (int neighbor : graph[node]) {
+
+            // Unvisited neighbor
+            if (!visited[neighbor]) {
+
+                if (dfs(neighbor, node, graph, visited)) {
+                    return true;
+                }
+            }
+
+            // Visited but not parent => cycle
+            else if (neighbor != parent) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+}
