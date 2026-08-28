@@ -1,0 +1,43 @@
+class Solution {
+
+    public boolean hasCycle(int n, List<Integer>[] graph) {
+
+        int[] state = new int[n];
+
+        for (int node = 0; node < n; node++) {
+
+            if (state[node] == 0) {
+
+                if (dfs(node, graph, state)) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    private boolean dfs(int node,
+                        List<Integer>[] graph,
+                        int[] state) {
+
+        state[node] = 1; // visiting
+
+        for (int neighbor : graph[node]) {
+
+            if (state[neighbor] == 1) {
+                return true;
+            }
+
+            if (state[neighbor] == 0 &&
+                dfs(neighbor, graph, state)) {
+
+                return true;
+            }
+        }
+
+        state[node] = 2; // processed
+
+        return false;
+    }
+}
