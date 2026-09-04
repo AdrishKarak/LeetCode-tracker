@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0130-surrounded-regions](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0133-clone-graph) |
+| [0207-course-schedule](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0207-course-schedule) |
 | [0417-pacific-atlantic-water-flow](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0695-max-area-of-island) |
 | [0797-all-paths-from-source-to-target](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0797-all-paths-from-source-to-target) |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0130-surrounded-regions](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0133-clone-graph) |
+| [0207-course-schedule](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0207-course-schedule) |
 | [0417-pacific-atlantic-water-flow](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0695-max-area-of-island) |
@@ -44,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0133-clone-graph) |
+| [0207-course-schedule](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0207-course-schedule) |
 | [0797-all-paths-from-source-to-target](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0797-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0841-keys-and-rooms) |
 | [0997-find-the-town-judge](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0997-find-the-town-judge) |
@@ -90,6 +93,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Directed Acyclic Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0207-course-schedule) |
 | [0797-all-paths-from-source-to-target](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0797-all-paths-from-source-to-target) |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1557-minimum-number-of-vertices-to-reach-all-nodes) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
