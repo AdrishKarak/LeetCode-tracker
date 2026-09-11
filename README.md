@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0210-course-schedule-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0695-max-area-of-island) |
+| [0785-is-graph-bipartite](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0785-is-graph-bipartite) |
 | [0797-all-paths-from-source-to-target](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0797-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0841-keys-and-rooms) |
 | [1020-number-of-enclaves](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1020-number-of-enclaves) |
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0695-max-area-of-island) |
+| [0785-is-graph-bipartite](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0785-is-graph-bipartite) |
 | [0797-all-paths-from-source-to-target](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0797-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0841-keys-and-rooms) |
 | [0994-rotting-oranges](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0994-rotting-oranges) |
@@ -41,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0130-surrounded-regions](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0130-surrounded-regions) |
 | [0695-max-area-of-island](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0695-max-area-of-island) |
+| [0785-is-graph-bipartite](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1020-number-of-enclaves) |
 | [1971-find-if-path-exists-in-graph](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1971-find-if-path-exists-in-graph) |
 | [2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
@@ -50,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0210-course-schedule-ii) |
+| [0785-is-graph-bipartite](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0785-is-graph-bipartite) |
 | [0797-all-paths-from-source-to-target](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0797-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0841-keys-and-rooms) |
 | [0997-find-the-town-judge](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0997-find-the-town-judge) |
@@ -104,4 +108,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0210-course-schedule-ii) |
+## Graph Coloring
+|  |
+| ------- |
+| [0785-is-graph-bipartite](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0785-is-graph-bipartite) |
+## Bipartite Graph
+|  |
+| ------- |
+| [0785-is-graph-bipartite](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0785-is-graph-bipartite) |
 <!---LeetCode Topics End-->
