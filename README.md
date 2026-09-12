@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0695-max-area-of-island) |
 | [0785-is-graph-bipartite](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0785-is-graph-bipartite) |
 | [0797-all-paths-from-source-to-target](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0797-all-paths-from-source-to-target) |
+| [0802-find-eventual-safe-states](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0841-keys-and-rooms) |
 | [1020-number-of-enclaves](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1020-number-of-enclaves) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0695-max-area-of-island) |
 | [0785-is-graph-bipartite](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0785-is-graph-bipartite) |
 | [0797-all-paths-from-source-to-target](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0797-all-paths-from-source-to-target) |
+| [0802-find-eventual-safe-states](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0841-keys-and-rooms) |
 | [0994-rotting-oranges](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1020-number-of-enclaves) |
@@ -55,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0210-course-schedule-ii) |
 | [0785-is-graph-bipartite](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0785-is-graph-bipartite) |
 | [0797-all-paths-from-source-to-target](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0797-all-paths-from-source-to-target) |
+| [0802-find-eventual-safe-states](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0841-keys-and-rooms) |
 | [0997-find-the-town-judge](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0997-find-the-town-judge) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
@@ -108,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0210-course-schedule-ii) |
+| [0802-find-eventual-safe-states](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0802-find-eventual-safe-states) |
 ## Graph Coloring
 |  |
 | ------- |
@@ -116,4 +120,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0785-is-graph-bipartite](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0785-is-graph-bipartite) |
+## Kosaraju's Algorithm
+|  |
+| ------- |
+| [0802-find-eventual-safe-states](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0802-find-eventual-safe-states) |
+## Tarjan's SCC Algorithm
+|  |
+| ------- |
+| [0802-find-eventual-safe-states](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0802-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
