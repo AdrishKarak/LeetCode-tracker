@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0721-accounts-merge) |
 | [0785-is-graph-bipartite](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0797-all-paths-from-source-to-target) |
 | [0802-find-eventual-safe-states](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0841-keys-and-rooms) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0721-accounts-merge) |
 | [0785-is-graph-bipartite](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0797-all-paths-from-source-to-target) |
 | [0802-find-eventual-safe-states](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0841-keys-and-rooms) |
@@ -67,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0210-course-schedule-ii) |
 | [0785-is-graph-bipartite](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0797-all-paths-from-source-to-target) |
 | [0802-find-eventual-safe-states](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0841-keys-and-rooms) |
@@ -109,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0542-01-matrix](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0542-01-matrix) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1162-as-far-from-land-as-possible](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1162-as-far-from-land-as-possible) |
 ## Hash Table
 |  |
@@ -162,10 +166,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1514-path-with-maximum-probability](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1514-path-with-maximum-probability) |
 ## Shortest Path
 |  |
 | ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1514-path-with-maximum-probability](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1514-path-with-maximum-probability) |
 ## Dijkstra's Algorithm
 |  |
