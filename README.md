@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0130-surrounded-regions) |
+| [0238-product-of-array-except-self](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0238-product-of-array-except-self) |
 | [0417-pacific-atlantic-water-flow](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0695-max-area-of-island) |
@@ -188,4 +189,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1631-path-with-minimum-effort](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1631-path-with-minimum-effort) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
