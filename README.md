@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0721-accounts-merge) |
+| [0724-find-pivot-index](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0724-find-pivot-index) |
 | [0994-rotting-oranges](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0994-rotting-oranges) |
 | [0997-find-the-town-judge](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0997-find-the-town-judge) |
 | [1020-number-of-enclaves](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1020-number-of-enclaves) |
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0238-product-of-array-except-self) |
+| [0724-find-pivot-index](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0724-find-pivot-index) |
 ## Two Pointers
 |  |
 | ------- |
