@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0130-surrounded-regions](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0130-surrounded-regions) |
 | [0238-product-of-array-except-self](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0238-product-of-array-except-self) |
+| [0283-move-zeroes](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0283-move-zeroes) |
 | [0417-pacific-atlantic-water-flow](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0695-max-area-of-island) |
@@ -193,4 +194,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0238-product-of-array-except-self) |
+## Two Pointers
+|  |
+| ------- |
+| [0283-move-zeroes](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0283-move-zeroes) |
 <!---LeetCode Topics End-->
