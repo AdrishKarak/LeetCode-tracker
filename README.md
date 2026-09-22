@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0133-clone-graph) |
+| [0383-ransom-note](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0383-ransom-note) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0721-accounts-merge](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0721-accounts-merge) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0947-most-stones-removed-with-same-row-or-column) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0383-ransom-note](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0383-ransom-note) |
 | [0721-accounts-merge](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0721-accounts-merge) |
 ## Sorting
 |  |
@@ -202,4 +204,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0283-move-zeroes](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0283-move-zeroes) |
+## Counting
+|  |
+| ------- |
+| [0383-ransom-note](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0383-ransom-note) |
 <!---LeetCode Topics End-->
