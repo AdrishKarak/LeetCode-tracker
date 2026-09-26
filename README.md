@@ -174,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0013-roman-to-integer) |
 | [0383-ransom-note](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0383-ransom-note) |
 | [0389-find-the-difference](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0389-find-the-difference) |
+| [0412-fizz-buzz](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0412-fizz-buzz) |
 | [0721-accounts-merge](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0721-accounts-merge) |
 ## Sorting
 |  |
@@ -222,4 +223,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0007-reverse-integer](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0007-reverse-integer) |
 | [0013-roman-to-integer](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0013-roman-to-integer) |
+| [0412-fizz-buzz](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0412-fizz-buzz) |
+## Simulation
+|  |
+| ------- |
+| [0412-fizz-buzz](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0412-fizz-buzz) |
 <!---LeetCode Topics End-->
