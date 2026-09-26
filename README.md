@@ -215,4 +215,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0389-find-the-difference](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0389-find-the-difference) |
+## Math
+|  |
+| ------- |
+| [0007-reverse-integer](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0007-reverse-integer) |
 <!---LeetCode Topics End-->
