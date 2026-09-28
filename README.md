@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0130-surrounded-regions) |
+| [0162-find-peak-element](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0162-find-peak-element) |
 | [0204-count-primes](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0204-count-primes) |
 | [0238-product-of-array-except-self](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0283-move-zeroes) |
@@ -202,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0069-sqrtx) |
+| [0162-find-peak-element](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/0162-find-peak-element) |
 | [1631-path-with-minimum-effort](https://github.com/AdrishKarak/LeetCode-tracker/tree/master/1631-path-with-minimum-effort) |
 ## Prefix Sum
 |  |
